@@ -1,0 +1,72 @@
+body {
+    font-family: 'Redressed', cursive;
+    margin:0px;
+    padding: 0px;
+}
+h1 {
+    color: orange;
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+}
+section {
+    height: 500px; 
+    padding-bottom: 100px;
+}
+.half-width  {
+ width: 40%;
+ margin-left: 5%;
+ padding-left: 2%;
+ float:left;
+
+}
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(45deg, salmon, orange);
+}
+.half-width img {
+    width: 100%;
+}
+.welcome-area {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+   
+}
+.Big-Dream{
+    background-image: url(images/dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.text-highlight {
+    color:orange;
+}
+.single-exp {
+    box-shadow: 10px 10px 40px gray;
+    height: 430px;
+    background-color: white;
+}
+#left-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, red);
+    border-image-slice: 1;
+}
+#left-border1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, green, yellow);
+    border-image-slice: 1;
+    
+}
+footer p {
+    text-align: center;
+    font-size: 15px;
+}
+.experience-area {
+    background-image: url(images/exp.png);
+    background-position:left;
+    background-repeat: no-repeat;
+}
+
